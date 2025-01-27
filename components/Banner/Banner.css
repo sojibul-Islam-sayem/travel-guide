@@ -1,0 +1,27 @@
+.banner{
+    @apply flex justify-center items-center h-[600px]
+}
+
+.banner_text{
+    @apply flex flex-col space-y-8
+}
+
+.header{
+    @apply md:text-7xl  font-bold text-white;
+}
+
+.banner_p{
+    @apply text-white text-opacity-60;
+}
+
+.select{
+    @apply bg-white font-semibold rounded-xl inline-block px-4 py-2
+}
+
+.select p{
+    @apply text-black text-xs  text-opacity-50
+}
+
+.select h5{
+    @apply text-black flex items-center space-x-2 text-xl text-opacity-70
+}
