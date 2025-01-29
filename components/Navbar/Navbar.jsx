@@ -22,9 +22,9 @@ const Navbar = () => {
         <li>Contact</li>
     </>
     return (
-        <div className="flex justify-between text-[#034833] items-center">
+        <div className="flex justify-between text-[#034833] my-3 max-w-[1590px] mx-auto items-center">
             <div className="font-bold text-2xl md:text-4xl">
-                Logo
+                TRAVELCO
             </div>
             <ul className='md:flex space-x-4 hidden font-medium'>
                 {navItem}
