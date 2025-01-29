@@ -1,21 +1,21 @@
 .banner{
-    @apply flex justify-center items-center h-[600px]
+    @apply bg-[#034833] md:px-4 py-6 bg-opacity-80 rounded-xl flex lg:flex-row flex-col-reverse  lg:justify-center items-center lg:h-[600px]
 }
 
 .banner_text{
-    @apply flex flex-col space-y-8
+    @apply flex flex-col md:space-y-8 space-y-4 md:items-center text-center
 }
 
 .header{
-    @apply md:text-7xl  font-bold text-white;
+    @apply lg:text-7xl md:text-6xl text-4xl  font-bold text-white;
 }
 
 .banner_p{
-    @apply text-white text-opacity-60;
+    @apply text-white md:text-base text-xs text-opacity-60 md:w-3/4;
 }
 
 .select{
-    @apply bg-white font-semibold rounded-xl inline-block px-4 py-2
+    @apply bg-white font-semibold text-left md:w-auto w-3/4 rounded-xl inline-block px-4 py-2
 }
 
 .select p{
@@ -23,5 +23,5 @@
 }
 
 .select h5{
-    @apply text-black flex items-center space-x-2 text-xl text-opacity-70
+    @apply text-black flex items-center space-x-2 lg:text-xl text-base text-opacity-70
 }

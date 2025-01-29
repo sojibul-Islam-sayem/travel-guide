@@ -30,8 +30,8 @@ const Navbar = () => {
                 {navItem}
             </ul>
             <div className="flex  items-center">
-                <button className="bg-[#83CD20] md:flex hidden items-center rounded-full space-x-2 md:px-10 px-5 md:text-xl text-xs font-semibold md
-                md:py-5 py-3 text-white">
+                <button className="bg-[#83CD20] md:flex hidden items-center rounded-full space-x-2 lg:px-10 px-5 lg:text-xl text-xs font-semibold md
+                lg:py-5 py-3 text-white">
                     <p>Book Now Here </p>
                     <FaArrowRightLong/>
                 </button>
