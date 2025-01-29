@@ -2,6 +2,7 @@ import Banner from "@/components/Banner/Banner";
 import Categories from "@/components/Section/Categories/Categories";
 import Customers from "@/components/Section/Coustomers/Coustomers";
 import Experience from "@/components/Section/Experience/Experience";
+import Package from "@/components/Section/Package/Package";
 import TopDestination from "@/components/Section/TopDestination/TopDestination";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <TopDestination />
       <Experience />
       <Customers />
+      <Package />
     </div>
   );
 }
