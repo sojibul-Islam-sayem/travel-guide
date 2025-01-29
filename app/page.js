@@ -4,6 +4,7 @@ import Customers from "@/components/Section/Coustomers/Coustomers";
 import Experience from "@/components/Section/Experience/Experience";
 import Package from "@/components/Section/Package/Package";
 import TopDestination from "@/components/Section/TopDestination/TopDestination";
+import WithUs from "@/components/Section/WithUs/WithUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Experience />
       <Customers />
       <Package />
+      <WithUs />
     </div>
   );
 }
