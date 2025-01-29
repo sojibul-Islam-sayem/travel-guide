@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner/Banner";
 import Categories from "@/components/Section/Categories/Categories";
+import Experience from "@/components/Section/Experience/Experience";
 import TopDestination from "@/components/Section/TopDestination/TopDestination";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Banner />
       <Categories />
       <TopDestination />
+      <Experience />
     </div>
   );
 }
